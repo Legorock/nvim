@@ -9,7 +9,7 @@ set encoding=utf-8                      " The encoding displayed
 set fileencoding=utf-8                  " The encoding written to file
 set pumheight=10                        " Makes popup menu smaller
 set ruler              			        " Show the cursor position all the time
-set cmdheight=2                         " More space for displaying messages
+" set cmdheight=2                         " More space for displaying messages
 set iskeyword+=-                      	" treat dash separated words as a word text object"
 set mouse=a                             " Enable your mouse
 set splitbelow                          " Horizontal splits will automatically be below
@@ -25,6 +25,7 @@ set showtabline=4                       " Always show tabs
 set laststatus=0                        " Always display the status line
 set number                              " Line numbers
 set cursorline                          " Enable highlighting of the current line
+set noshowmode                          " We don't need to see things like -- INSERT -- anymore
 set background=dark                     " tell vim what the background color looks like
 set nobackup                            " This is recommended by coc
 set nowritebackup                       " This is recommended by coc
