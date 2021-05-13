@@ -34,4 +34,4 @@ set timeoutlen=500                      " By default timeoutlen is 1000 ms
 set clipboard=unnamedplus               " Copy paste between vim and everything else
 
 autocmd FileType * set fo-=r fo-=o      " Stop newline continuation of comments
-
+autocmd BufWritePre * %s/\s\+$//e       "Auto-remove trailing whitespace on save
