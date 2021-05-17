@@ -18,4 +18,4 @@ let g:airline_theme = 'onedark'
 set showtabline=4
 
 " We don't need to see things like -- INSERT -- anymore
-"set noshowmode
+set noshowmode
