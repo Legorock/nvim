@@ -9,9 +9,9 @@ set encoding=utf-8                      " The encoding displayed
 set fileencoding=utf-8                  " The encoding written to file
 set pumheight=10                        " Makes popup menu smaller
 set ruler              			        " Show the cursor position all the time
-" set cmdheight=2                         " More space for displaying messages
-set iskeyword+=-                      	" treat dash separated words as a word text object"
-set mouse=a                             " Enable your mouse
+set cmdheight=1                         " Number of lines for messages and commands on the bottom
+set iskeyword+=-                      	" Treat dash separated words as a word text object"
+set mouse=                              " Disable your mouse (because right-click menu doesn't pop up)
 set splitbelow                          " Horizontal splits will automatically be below
 set splitright                          " Vertical splits will automatically be to the right
 set conceallevel=0                      " So that I can see `` in markdown files
@@ -34,4 +34,4 @@ set timeoutlen=500                      " By default timeoutlen is 1000 ms
 set clipboard=unnamedplus               " Copy paste between vim and everything else
 
 autocmd FileType * set fo-=r fo-=o      " Stop newline continuation of comments
-autocmd BufWritePre * %s/\s\+$//e       "Auto-remove trailing whitespace on save
+autocmd BufWritePre * %s/\s\+$//e       " Auto-remove trailing whitespace on save
