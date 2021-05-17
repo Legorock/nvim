@@ -43,6 +43,9 @@ nnoremap <Leader>O O<Esc>^Da
 nnoremap <space>/ :Commentary<CR>
 vnoremap <space>/ :Commentary<CR>
 
+" Cancel search highlight noh - no highlight
+map <esc> :noh <CR>
+
 " Change these if you want
 let g:signify_sign_add               = '+'
 let g:signify_sign_delete            = '_'
