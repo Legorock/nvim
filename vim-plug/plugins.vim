@@ -12,10 +12,10 @@ call plug#begin('~/.config/nvim/autoload/plugged')
     Plug 'sheerun/vim-polyglot'
 
     " File Explorer
-    Plug 'scrooloose/nerdtree'
+    "Plug 'scrooloose/nerdtree'
 
     " Auto pairs  for '(' '[' '{'
-    Plug 'jiangmiao/auto-pairs'
+    "Plug 'jiangmiao/auto-pairs'
 
     " Vim Airline
     Plug 'vim-airline/vim-airline'
