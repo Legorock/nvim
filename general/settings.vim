@@ -11,6 +11,7 @@ set pumheight=10                        " Makes popup menu smaller
 set ruler              			        " Show the cursor position all the time
 set cmdheight=1                         " Number of lines for messages and commands on the bottom
 set iskeyword+=-                      	" Treat dash separated words as a word text object"
+set iskeyword+=_                      	" Treat underscore separated words as a word text object"
 set mouse=                              " Disable your mouse (because right-click menu doesn't pop up)
 set splitbelow                          " Horizontal splits will automatically be below
 set splitright                          " Vertical splits will automatically be to the right
