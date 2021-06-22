@@ -29,4 +29,13 @@ call plug#begin('~/.config/nvim/autoload/plugged')
     " Git plugin for Vim-Airline symbols
     Plug 'tpope/vim-fugitive'
 
+    " Clang-Format
+    Plug 'rhysd/vim-clang-format'
+
 call plug#end()
+
+
+" Clang-Format Options
+let g:clang_format#detect_style_file = 1     " automatically detect .clang-format
+let g:clang_format#auto_format = 1           " format on save
+let g:clang_format#enable_fallback_style = 0 " if no .clang-format found do nothing
